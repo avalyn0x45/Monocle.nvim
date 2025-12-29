@@ -87,7 +87,7 @@ function M.load_colors()
 		CursorLine=		{							bg=colors.offblack						};
 		CursorLineNr=	{fg=colors.slateblue,							gui=styles.bold		};
 		IncSearch=		{fg=colors.yellow,			bg=colors.black,	gui=styles.r		};
-		LineNr=			{fg=colors.slateblue,		bg=colors.shaddow,	gui=styles.bold		};
+		LineNr=			{fg=colors.slateblue,		bg=colors.black,	gui=styles.bold		};
 		MatchParen=		{fg=colors.red,				bg=colors.none,		gui=styles.underline};
 		Pmenu=			{fg=colors.none,			bg=colors.none,		gui=colors.none		};
 		PmenuSel=		{fg=colors.none,			bg=colors.darkgray, gui=colors.none		};
