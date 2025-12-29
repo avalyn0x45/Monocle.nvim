@@ -201,6 +201,7 @@ function M.load_colors()
 end
 
 function M.colorscheme()
+	local colors = M.colors
 	--api.nvim_command('hi clear')
 	if vim.fn.exists('syntax_on') then
 		api.nvim_command('syntax reset')
