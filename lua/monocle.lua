@@ -87,7 +87,7 @@ function M.load_colors()
 		CursorLine=		{							bg=colors.offblack						};
 		CursorLineNr=	{fg=colors.slateblue,							gui=styles.bold		};
 		IncSearch=		{fg=colors.yellow,			bg=colors.black,	gui=styles.r		};
-		LineNr=			{fg=colors.cyan,			bg=colors.offblack,	gui=styles.bold		};
+		LineNr=			{fg=colors.slateblue,		bg=colors.shaddow,	gui=styles.bold		};
 		MatchParen=		{fg=colors.red,				bg=colors.none,		gui=styles.underline};
 		Pmenu=			{fg=colors.none,			bg=colors.none,		gui=colors.none		};
 		PmenuSel=		{fg=colors.none,			bg=colors.darkgray, gui=colors.none		};
@@ -201,7 +201,6 @@ function M.load_colors()
 end
 
 function M.colorscheme()
-	local colors = M.colors
 	--api.nvim_command('hi clear')
 	if vim.fn.exists('syntax_on') then
 		api.nvim_command('syntax reset')
