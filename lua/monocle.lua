@@ -45,7 +45,7 @@ M.colors = {
 	offblack=		'#303044';
 	shaddow=		'#272822';
 	black=			'#222222';
-
+	mysoul=			'#111111';
 	none=			'NONE';
 }
 
