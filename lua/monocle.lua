@@ -120,7 +120,7 @@ function M.load_colors()
 		Float=			{fg=colors.lightpurple,		bg=colors.none,		gui=colors.none};
 		Folded=			{fg=colors.gray,			bg=colors.shaddow,	gui=colors.none};
 		Function=		{fg=colors.lightmagenta,	bg=colors.none,		gui=colors.none};
-		Identifier=		{fg=colors.lightcyan,		bg=colors.none,		gui=styles.none};
+		Identifier=		{fg=colors.violet,			bg=colors.none,		gui=styles.none};
 		Keyword=		{fg=colors.specialcyan,		bg=colors.none,		gui=styles.bold};
 		Label=			{fg=colors.lightyellow,		bg=colors.none,		gui=colors.none};
 		NonText=		{fg=colors.none,			bg=colors.none,		gui=colors.none};
