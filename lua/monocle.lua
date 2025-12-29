@@ -96,6 +96,7 @@ function M.load_colors()
 		StatusLine=		{fg=colors.white,			bg=colors.gray,		gui=styles.bold		};
 		StatusLineNC=	{fg=colors.white,			bg=colors.none,		gui=colors.none		};
 		TabLine=		{																	};
+		TabLineSel=		{							bg=colors.mysoul,	gui=sytles.bold		};
 		Visual=			{fg=colors.none,			bg=colors.darkgray, gui=colors.none		};
 		WinSeparator=	{fg=colors.blue,			bg=colors.none,		gui=colors.none		};
 
@@ -107,7 +108,7 @@ function M.load_colors()
 
 		-- Messages
 		ErrorMsg=		{fg=colors.white,			bg=colors.red,		gui=colors.none		};
-		WarningMsg=		{fg=colors.white,			bg=colors.brown,		gui=colors.none	};
+		WarningMsg=		{fg=colors.white,			bg=colors.brown,	gui=colors.none		};
 
 		-- Text types
 		Boolean=		{fg=colors.lightpurple,		bg=colors.none,		gui=colors.none		};
@@ -146,7 +147,7 @@ function M.load_colors()
 		DiagnosticHint=				{fg=colors.cyan,	bg=colors.offblack					};
 		DiagnosticInfo=				{fg=colors.white,	bg=colors.offblack					};
 		DiagnosticWarn=				{fg=colors.brown,	bg=colors.offblack					};
-		DiagnosticUnnecessary=		{fg=colors.darkgray,					gui=styles.u	};
+		DiagnosticUnnecessary=		{fg=colors.darkgray,				gui=styles.u		};
 
 		DiagnosticSignError =		{fg=colors.red,		bg=colors.none						};
 		DiagnosticSignHint =		{fg=colors.cyan,	bg=colors.none						};
