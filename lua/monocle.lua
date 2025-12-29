@@ -96,7 +96,7 @@ function M.load_colors()
 		StatusLine=		{fg=colors.white,			bg=colors.gray,		gui=styles.bold		};
 		StatusLineNC=	{fg=colors.white,			bg=colors.none,		gui=colors.none		};
 		TabLine=		{																	};
-		TabLineSel=		{							bg=colors.mysoul,	gui=sytles.bold		};
+		TabLineSel=		{							bg=colors.mysoul,	gui=styles.bold		};
 		Visual=			{fg=colors.none,			bg=colors.darkgray, gui=colors.none		};
 		WinSeparator=	{fg=colors.blue,			bg=colors.none,		gui=colors.none		};
 
