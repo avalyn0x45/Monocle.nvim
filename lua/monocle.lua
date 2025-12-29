@@ -209,6 +209,9 @@ function M.colorscheme()
 	vim.o.background = 'dark'
 	vim.o.termguicolors = true
 	vim.g.colors_name = 'monocle'
+	vim.api.nvim_set_hl(0, 'LineNrAbove', { fg=colors.cyan, bg=colors.offblack, bold=true })
+    vim.api.nvim_set_hl(0, 'LineNr', { fg=colors.darkpurple, bg=colors.offblack, bold=true })
+    vim.api.nvim_set_hl(0, 'LineNrBelow', { fg=colors.cyan, bg=colors.offblack, bold=true })
 	local syntax = M.load_colors()
 	for group,style in pairs(syntax) do
 		M.highlight(group, style)
